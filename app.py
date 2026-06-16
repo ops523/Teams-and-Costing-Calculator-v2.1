@@ -15,7 +15,7 @@ from modules.exports import create_excel_export
 
 st.set_page_config(
     page_title="Wall Project Cost Calculator",
-    page_icon="📊",
+    page_icon="assets/logo.png",
     layout="wide"
 )
 
