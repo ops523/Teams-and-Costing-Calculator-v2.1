@@ -1,0 +1,5 @@
+def create_schedule(
+    start_date,
+    project_days,
+    travel_days
+):
