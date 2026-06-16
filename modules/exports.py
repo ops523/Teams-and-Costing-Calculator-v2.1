@@ -9,6 +9,7 @@ def create_excel_export(
     team_df,
     material_df,
     what_if_df,
+    scenario_df,
     schedule_df,
     summary_df
 ):
