@@ -8,6 +8,7 @@ from modules.calculations import calculate_project
 from modules.scenarios import create_what_if_analysis
 from modules.scheduling import create_schedule
 from modules.exports import create_excel_export
+from modules.scenario_comparison import build_scenario_comparison
 
 # --------------------------------------------------
 # PAGE CONFIG
