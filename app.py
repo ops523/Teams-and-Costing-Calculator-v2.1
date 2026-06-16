@@ -29,7 +29,7 @@ try:
     with logo_col2:
         st.image(
             "assets/logo.png",
-            width=300
+            width=100
         )
 except:
     pass
