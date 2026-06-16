@@ -57,4 +57,10 @@ def create_excel_export(
             index=False
         )
 
+        scenario_df.to_excel(
+            writer,
+            sheet_name="Scenario Comparison",
+            index=False
+        )
+
     return output.getvalue()
