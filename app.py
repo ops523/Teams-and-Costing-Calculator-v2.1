@@ -431,6 +431,12 @@ st.dataframe(
     use_container_width=True,
     height=500
 )
+st.header("D) Scenario Comparison")
+
+st.dataframe(
+    scenario_df,
+    use_container_width=True
+)
 
 # --------------------------------------------------
 # PROJECT SCHEDULE
