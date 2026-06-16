@@ -398,6 +398,33 @@ what_if_df = create_what_if_analysis(
         daily_team_cost
 )
 
+scenario_df = build_scenario_comparison(
+
+    base_teams=
+        results["team_count"],
+
+    project_sqft=
+        project_sqft,
+
+    effective_daily_prod=
+        results["effective_daily_prod"],
+
+    travel_days_per_month=
+        travel_days_per_month,
+
+    daily_team_cost=
+        daily_team_cost,
+
+    wall_rental_cost=
+        results["wall_rental_cost"],
+
+    material_cost=
+        results["material_cost"],
+
+    margin_pct=
+        margin_pct
+)
+
 st.header("C) What-If Analysis")
 st.dataframe(
     what_if_df,
